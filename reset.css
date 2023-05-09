@@ -24,16 +24,25 @@ body {
   line-height: 1.5;
 }
 
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
 /*
   Improve media defaults
 */
+
 img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
+video {
   max-width: 100%;
+  height: auto;
 }
 
 /*
